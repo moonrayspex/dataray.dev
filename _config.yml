@@ -1,0 +1,27 @@
+# Site settings
+title: Dataray
+description: >-
+  Dataray - dataray.dev
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dataray.dev"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
